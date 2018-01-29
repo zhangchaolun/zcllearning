@@ -1,0 +1,15 @@
+body {
+	background-color: #FFF;
+}
+
+img {
+	border-width: 0;
+}
+.centered {
+	text-align: center;
+}
+
+#adBanner {
+	width: 400px;
+	height: 75px;
+}
