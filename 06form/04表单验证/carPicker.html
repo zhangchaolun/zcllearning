@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CP</title>
+	<link rel="stylesheet" type="text/css" href="cpcss.css">
+  <script type="text/javascript" src="js01.js"></script>
+</head>
+<body>
+	<!-- <h2 class="centered">Car Picker</h2> -->
+    <form action="">
+    <p><label for="emailaddress">Email Address:<input type="text" id="emailaddress" size="30" class="reqd email"></label></p>
+    <p><label for="color">Colors:
+      <select id="color" class="reqd">
+      <option value="" selected>Choose a color</option>
+      <option value="Red">Red</option>
+      <option value="Green">Green</option>
+      <option value="Blue">Blue</option>
+    </select>
+    </lable></p>
+    <p>
+       Options:
+       <label for="sunroof"><input type="checkbox" id="sunroof" >Sunroof(Two door only)</label>
+       <label for="powerWin"><input type="checkbox" id="powerWin">Power Windows</label>
+    </p>
+    <p><label for="doorsCt">
+       Doors:&nbsp;&nbsp;
+       <input type="radio" name="doorsCt" id="twoDoor" value="twoDoor" class="radio">Two
+       <input type="radio" name="doorsCt" id="fourDoor" value="fourDoor" class="radio">Four
+    </label></p>
+    <p><label for="zip">
+       Enter your Zip code or pick the dealer nearest you:<br>
+       Zip:
+       <input type="text" size="5" id="zip" maxlength="5" class="isZip dealerList">
+       <select id="dealerList" size="4" class="zip">
+          <option value="California--Lemon Grove">California--Lemon Grove</option>
+          <option value="California--Lomita">California--Lomita</option>
+          <option value="California--Long Beach">California--Long Beach</option>
+          <option value="California--Los Angeles">California--Los Angeles</option>
+       </select>
+    </label></p>
+    <p><input type="submit" value="Submit">&nbsp;
+    <input type="reset" value="重置"></p>
+    </form>
+</body>
+</html>
+
