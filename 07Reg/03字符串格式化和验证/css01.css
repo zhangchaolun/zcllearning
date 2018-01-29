@@ -1,0 +1,15 @@
+body{
+	color:#000;
+	background-color:#fff;
+}
+.centered{
+	text-align: center;
+}
+input.invalid{
+	border: 2px red inset;
+	background-color: #ff9;
+}
+label.invalid{
+	color: #f00;
+	font-weight: bold;
+}
